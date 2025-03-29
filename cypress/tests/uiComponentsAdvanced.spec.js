@@ -22,4 +22,6 @@ describe('UI Components advanced', function(){
         cy.wait(3000);
         cy.iframe().find('h1.pricing-title').should('have.length', 2)
     })
+
+    
 })
